@@ -1,0 +1,5 @@
+# HTTP'yi HTTPS'ye Yönlendirme Kodu - from domainhizmetleri.com/blog
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Son: HTTP'yi HTTPS'ye Yönlendirme Kodu - from domainhizmetleri.com/blog
