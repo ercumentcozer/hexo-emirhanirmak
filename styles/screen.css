@@ -773,7 +773,7 @@ main article.full p + img {
 }
 main article.full img {
   border-radius: 3px;
-  height: auto;
+  height: 300px;
   margin-top: 20px;
 }
 main article.full blockquote {
@@ -1587,6 +1587,8 @@ body.home section.videos {
   body .videos {
     float: left;
   }
+}
+@media (max-width: 420px) {
 }
 @-moz-keyframes slide {
   0% {
